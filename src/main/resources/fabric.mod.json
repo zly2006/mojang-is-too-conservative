@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mojang-is-too-conservative",
+  "version": "${version}",
+  "name": "Mojang is too Conservative",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/zly2006/mojang-is-too-conservative"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/mojang-is-too-conservative/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.zly2006.mojangistooconservative.MojangIsTooConservative"
+    ]
+  },
+  "mixins": [
+    "mojang-is-too-conservative.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  },
+  "accessWidener": "mojang-is-too-conservative.mixins.accesswidener"
+}
